@@ -5,18 +5,18 @@ DDos Bash Script written around torshammer with an automatic IP changer to avoid
 First install torshammer on your server that is running Debian 9<br><br><br>
 <code>sudo apt-get update -y && sudo apt-get install tor netcat screen git -y && systemctl enable tor && service tor start </code>
 <br>
-Then generate a password hash used in your torrc file located at 
+Then generate a password hash used in your torrc file located at<br> 
 /etc/tor/torrc<br>
 <br>
-<code>tor --hash-password "password"</code>
+<code>tor --hash-password "password"</code><br>
 Then add it to line number 59 in /etc/tor/torrc 
-example 
+example <br>
 <code>
 admin@vps:~# tor --hash-password "password"</code>
 <code></code>
 <code>16:D2DAF2F6F4419C9660155C7AED45177492363345A981CCCCB3659172F5</code>
-</code>
-In Your torrc file it should look like:
+</code><br><br>
+In Your torrc file it should look like:<br>
 <code>#HashedControlPassword 16:D2DAF2F6F4419C9660155C7AED45177492363345A981CCCCB3659172F5</code>
 <br><br>
 At this point you want to install torshammer by running<br><br>
@@ -32,9 +32,9 @@ and save it using CTRL+O then CTRL+X
 <br><br><br>
 Allow it to execute with the following command
 <br><code>sudo chmod +x run.sh</code>
-Run it with 
-<code>./run.sh</code>
-You can use a distributed shell like "DSH" to make this a distributed attack by using multiple servers at one time. 
-To learn how to do that see this guide
-<a href="https://www.ostechnix.com/dsh-run-linux-command-multiple-hosts-time/">HERE</a>
-<i><b>DISCLAIMER: The information provided is for educational/testing purposes only and is not intended to be used on any service without first obtaining consent for testing. This attack is Illegal and can get you arrested if you use it on a service without permission. This is your only warning
+<br>Run it with 
+<br><code>./run.sh</code>
+<br><br>You can use a distributed shell like "DSH" to make this a distributed attack by using multiple servers at one time. 
+<br>To learn how to do that see this guide
+<br><a href="https://www.ostechnix.com/dsh-run-linux-command-multiple-hosts-time/">HERE</a>
+<br><br><i><b>DISCLAIMER: The information provided is for educational/testing purposes only and is not intended to be used on any service without first obtaining consent for testing. This attack is Illegal and can get you arrested if you use it on a service without permission. This is your only warning
