@@ -36,5 +36,5 @@ Allow it to execute with the following command
 <br><code>./run.sh</code>
 <br><br>You can use a distributed shell like "DSH" to make this a distributed attack by using multiple servers at one time. 
 <br>To learn how to do that see this guide
-<br><a href="https://www.ostechnix.com/dsh-run-linux-command-multiple-hosts-time/">HERE</a>
+<br><a href="https://github.com/Y0urN3w0wn3r/AutoIpChangingDDos/wiki/How-to-setup-DSH">HERE</a>
 <br><br><i><b>DISCLAIMER: The information provided is for educational/testing purposes only and is not intended to be used on any service without first obtaining consent for testing. This attack is Illegal and can get you arrested if you use it on a service without permission. This is your only warning
