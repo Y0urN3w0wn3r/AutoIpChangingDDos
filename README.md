@@ -17,7 +17,7 @@ admin@vps:~# tor --hash-password "password"</code>
 <code>16:D2DAF2F6F4419C9660155C7AED45177492363345A981CCCCB3659172F5</code>
 </code>
 In Your torrc file it should look like:
-<code>#HashedControlPassword 16:59A74E33DD606381608D9524EA4CA05C78A6D8C2D17D406BC45E084D12</code>
+<code>#HashedControlPassword 16:D2DAF2F6F4419C9660155C7AED45177492363345A981CCCCB3659172F5</code>
 <br><br>
 At this point you want to install torshammer by running<br><br>
 <code>git clone https://github.com/dotfighter/torshammer</code><br><br>
